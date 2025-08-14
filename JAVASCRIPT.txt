@@ -1,0 +1,27 @@
+1.NaN significa "Not-a-number", isso representa que o valor não é um número legal, esse valor também é retornado quando uma operação matemática do código não retorna um valor certo ou quando você soma números em que não existe um valor definido nos seus campos.
+
+2.Você pode linkar um arquivo CSS ao código HTML ou, com a tag <style>, adicionar a configuração CSS no próprio código CSS, a diferença entre uma e outra é a organização, linkar um arquivo CSS ao HTML é muito mais prático e organizado do que adicionar a configuração no próprio HTML.
+
+3.A div repesenta uma divisão em formato de conteiner, para agrupar elementos afim de estilizar a página (usando uma classe ou um id), já o span é um contêiner também com o propósito de estilizar a página porém ao contrário da div, o span é um elemento de nível de bloco enquanto o span é um elemento em linha.
+
+4.Pode ser usado para providenciar informações gerais como idioma, título da página, links para css e scripts e folhas de estilos.
+
+5.Listas ordenadas (<ol>) são normalmente usadas para criar uma série de passos ou definir uma lista (Como top melhores filmes de 2024) e listas não ordenadas servem para definir uma lista que a ordem não é necessariamente o foco da lista.
+
+6.A propriedade display especifica o comportamento de exibição de um elemento.  
+Block:exibe um elemento de bloco parecido com a tag <p>. Começa em uma linha nova e ocupa toda a largura.
+inline: Mostra um elemento como um elemento em linha, parecido com o <span>. Qualquer propriedade de altura e largura não vai fazer efeito.
+inline-block: Mostra um elemento como um container innline-level block container, O elemento em si é formatado como um elemento inline, mas você pode aplicar valores de altura e largura.
+
+7.Content: O conteúdo da caixa, onde aparecem o texto e as imagens
+Padding: Limpa uma área ao redor do conteúdo. O Preenchimento é transparente.
+Border: Uma borda que circunda o preenchimento e o conteúdo
+Margin: Limpa uma área fora da borda
+
+8.Elementos como <header> ou <footer>, são considerados semânticos pois descrevem com precisão o propósito do elemento e o tipo de conteúdo dentro dele, esses elementos agrupam outros elementos juntos em uma seção dentro da página, com isso, facilita identificar que tipo de informação será incluída em cada tag semântica <header>.
+
+9.Esse atributo serve para que quando clicamos em um link, seja aberta uma nova guia, devemos tomar cuidado ao utiliza-la pois pode ocorrer problemas de interface e confusão ao usuário quando utilizadas em sites.
+
+10.A propriedade flex define o comprimento flexível em itens flexíveis.
+
+11.As transições podem ser usadas para cria animações ao passar o mouse ou clicar em um elemento, um exemplo claro disso, é a animação do "pulinho" quando se passa o mouse em um elemento.
