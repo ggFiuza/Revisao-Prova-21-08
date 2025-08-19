@@ -1,4 +1,3 @@
-
 let p1 = {
     nome: prompt("Nome do Primeiro Pokémon:"),
   
@@ -41,3 +40,4 @@ if (p1.poder > p2.poder) console.log(p1.nome + " venceu!");
 else if (p2.poder > p1.poder) console.log(p2.nome + " venceu!");
   
 else console.log("Empate!");
+
