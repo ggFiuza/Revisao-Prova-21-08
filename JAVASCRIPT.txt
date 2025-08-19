@@ -25,3 +25,46 @@ Margin: Limpa uma área fora da borda
 10.A propriedade flex define o comprimento flexível em itens flexíveis.
 
 11.As transições podem ser usadas para cria animações ao passar o mouse ou clicar em um elemento, um exemplo claro disso, é a animação do "pulinho" quando se passa o mouse em um elemento.
+
+16. Declarações com var tem escopo global ou escopo de função/local, uma variável declarada com let em um bloco estará disponível apenas dentro daquele bloco, Variáveis declaradas com const mantêm valores constantes. Declarações com const compartilham algumas semelhanças com as declarações com let.
+
+17.
+1) x retorna ReferenceError
+
+console.log(x) retorna 15
+
+console.log(y) retorna 25
+
+console.log(z) retorna 30
+
+Dentro do primeiro bloco retorna os valores 100, 200 e 300
+
+Fora do bloco retorna os valores respectivamente a = 100, typeof b = "undefined", typeof c = "undefined"
+
+Antes do segundo bloco → 100, "undefined", "undefined"
+
+Dentro do segundo bloco → "var da função", "let da função", "const da função"
+
+Fora do segundo bloco → "string", "undefined", "undefined"
+
+18.Java seria uma linguagem de programação de propósito generalista e JavaScript seria usada em aplicativos web para torná-los interativos e animados.
+
+19."==" é a chamada igualdade "abstrata" ela compara valores e faz a conversão de tipo automática, já a "===" é a igualdade estrita, ela compara o valor e o tipo, se compararmos um número em formato de Number e outro em formato de String por exemplo (5==='5') ela retorna que essa afirmação é falsa.
+
+20.Eles servem para condicionar expresões booleanas(expressões que envolvem true e false), são usados na maioria das vezes em if e outras estruturas de decisão, como verificar se uma pessoa é maior de idade ou não.
+
+21.Sim. Usando a propriedade do "." para definir propriedades além da original, por exemplo:
+
+let carro = {
+  marca: "Honda",
+  modelo: "Civic"
+}
+
+carro.ano = 2022
+carro.cor = "Prata"
+
+console.log(carro);
+
+22.undefined significa que uma variável foi declarada, mas ainda não recebeu um valor e undefined significa que uma variável foi declarada, mas ainda não recebeu um valor.
+
+23.Em JavaScript, um objeto é uma coleção de dados e funcionalidades relacionadas. Como como uma "gaveta" organizada onde você pode guardar diferentes tipos de informações, eles são declarados entre chaves que você define as propriedades e valores do objeto.
